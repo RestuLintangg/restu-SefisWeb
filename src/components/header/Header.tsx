@@ -17,7 +17,7 @@ const Header: React.FC = () => {
             <li><Link to="/company">Company</Link></li>
           </ul>
         </nav>
-        <Link className={styles.getADemo} to="/contact">Get A Demo</Link>
+        <Link className={styles.getADemo} to="/company">Get A Demo</Link>
       </div>
     </header>
   );

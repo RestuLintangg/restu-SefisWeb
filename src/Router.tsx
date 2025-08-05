@@ -5,7 +5,6 @@ import Pricing from "./components/Main/pricing/Pricing";
 import Resources from "./components/Main/resources/Resources";
 import Partners from "./components/Main/partners/Partners";
 import Company from "./components/Main/company/Company";
-import Contact from "./components/Main/contact/Contact";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
@@ -14,7 +13,6 @@ const router = createBrowserRouter([
   { path: "/resources", element: <Resources /> },
   { path: "/partners", element: <Partners /> },
   { path: "/company", element: <Company /> },
-  { path: "/contact", element: <Contact /> },
 ]);
 
 export function Router() {

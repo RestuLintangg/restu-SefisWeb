@@ -3,13 +3,14 @@
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  background: black; /* Semi-transparent background */
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  height: 99px;
 }
 
 /* Logo text */
-.header .logo h1 {
-  font-size: 30px;
+.header .sitename {
+  font-size: 36px;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -43,40 +44,8 @@
 }
 
 .navmenu a:hover,
-.navmenu .active {
+.navmenu {
   color: #00c28c;
-}
-
-.navmenu .dropdown ul {
-  display: none;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  background: #fff;
-  padding: 10px 0;
-  border-radius: 4px;
-  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
-}
-
-.navmenu .dropdown:hover > ul {
-  display: block;
-}
-
-.navmenu .dropdown ul li {
-  position: relative;
-}
-
-.navmenu .dropdown ul a {
-  padding: 10px 20px;
-  display: block;
-  font-size: 14px;
-  color: #333;
-}
-
-.navmenu .dropdown ul .dropdown:hover > ul {
-  display: block;
-  top: 0;
-  left: 100%;
 }
 
 /* Mobile nav toggle */
@@ -88,8 +57,7 @@
 }
 
 /* Call-to-action button */
-.cta-btn {
-  margin-left: 20px;
+.getADemo {
   background: #00c28c;
   color: #fff;
   padding: 10px 25px;
@@ -97,10 +65,12 @@
   transition: 0.3s;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 600;
 }
 
-.cta-btn:hover {
+.getADemo:hover {
   background: #00b383;
+  color: white;
 }
 
 /* Responsive tweaks */

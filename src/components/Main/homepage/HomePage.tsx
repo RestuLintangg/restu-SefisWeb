@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "./header/header";
+import Header from "../../header/Header";
+import styles from "./Homepage.module.css";
 
 const HomePage: React.FC = () => {
   return (
     <>
       <Header />
-      <main>
-        <h2>Ini halaman utama</h2>
-      </main>
+      <div className={styles.tag}>Home Page</div>
     </>
   );
 };
